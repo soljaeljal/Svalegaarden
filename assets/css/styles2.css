@@ -1,0 +1,1096 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 14pt;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 400;
+    color: white;
+}
+
+.main-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo {
+    display: inline-flex;
+    padding: 15px;
+    width: 10%;
+}
+
+.main-menu {
+    display: inline-flex;
+}
+
+.menu-items  li{
+    display: inline;
+    list-style: none;
+    padding: 6px;
+    margin: 0 12px;
+}
+
+.menu-items li a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16pt;
+}
+
+.menu-items li a:hover {
+    color:white;
+}
+
+.menu-items li:hover {
+    background-color: #96192b;
+}
+
+.menu-items .btn {
+    color:white;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 6px 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    background-color: #96192b;
+    color:white;
+}
+ 
+.main-image {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;    
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    left: 0;
+}
+
+.container-image {
+    position: relative;
+}
+
+.container-image .text-content{
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.main-image .text-content {
+    padding: 0 100px;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.main-image .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-content {
+    display: flex;
+}
+
+.main-image-seasons {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;    
+}
+
+.main-image-seasons .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.main-image-seasons .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-ocasional {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-image-ocasional .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-ocasional .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+/*
+.main-image-contact {
+    background: url(../images/personnel2.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position-y: 40%;
+    width: 100%;
+}*/
+
+.main-image-contact .text-content {
+    margin-top: 100px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-about {
+    background: url(../images/spring.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-image-about .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-about .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-spring {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%; 
+}
+
+.main-image-spring .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-spring .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-summer {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%; 
+}
+
+.main-image-summer .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-content{
+    padding-left: 3em;
+    padding-top: 2em;
+}
+
+.text-content p {
+    width: 80%;
+}
+
+.main-image-summer .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-autumn {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%; 
+}
+
+.main-image-autumn .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-autumn .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-winter {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%; 
+}
+
+.main-image-winter .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-image-winter .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-wedding {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;    
+}
+
+.main-image-wedding .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.main-image-wedding .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-confirmation {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;    
+}
+
+.main-image-confirmation .text-content {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+.main-image-confirmation .title {
+    padding: 0 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-image-wedding-2 {
+    background: url(../../images/main-image.jpg) center center no-repeat;
+    height: 250px;
+    background-size: cover;
+    width: 100%;    
+}
+
+.main-image-wedding-2 .text-content {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;    
+}
+
+
+.main-image-1 {
+    /*background: url(../../images/hubble.jpg) center center no-repeat;*/
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+    text-align: center;*/
+    
+}
+
+.section-content .text-content {
+    width: 100%;
+    padding: 0 75px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.section-content .text-content .title {
+    text-transform: uppercase;
+    
+}
+
+.section-content .opening-hours {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    flex-shrink: 0;
+    background-color: #191c27;
+    
+}
+
+.hours-list {
+    padding: 0;
+}
+
+.hours-list li{
+    list-style: none;
+}
+
+.section-content .information-details {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    margin-top: 300px;
+    height: 437px;
+    flex-shrink: 0;
+    background-color: #191c27;
+    color:white;
+    font-size: 10px;
+}
+
+.section-content .information-details .title{
+    color:white;
+    margin:0%;
+    padding: 25px 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-content .image-map{
+    background: url(../../images/hubble.jpg) center center no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+
+.main-image-2 {
+    background: url(../../images/hubble-sombrero.jpg) center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-image-3 {
+    background: url(http://placekitten.com/g/800/300) center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-image-4 {
+    background: url(http://placekitten.com/g/900/400) center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-image-5 {
+    background: url(http://placekitten.com/g/900/400) center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+.container-bar {
+    background-color: #96192b;
+    width: 100%;
+    height:80px;
+}
+
+.container-bar .title{
+    margin:0%;
+    padding: 25px 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-bar-title {
+    background-color: #96192b;
+    width: 100%;
+    height:160px;
+}
+.container-bar-title .title {
+    margin:0%;
+    padding: 25px 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-bar-title .text-content {
+    font-size: 12px;
+    margin-left: 7%;
+    width: 100%;
+    color:white;
+}
+.container-bar .text-content {
+    font-size: 12px;
+    margin-left: 7%;
+    width: 100%;
+    color:white;
+}
+
+.container-bar-2 {
+    background-color: #191c27;
+    width: 100%;
+    height:80px;
+}
+
+.container-bar-2 .title{
+    margin:0%;
+    padding: 25px 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.left-section {
+    color: #707070;
+    padding: 50px 25px;
+    display: inline-flex;
+    flex-direction: column;
+    /*justify-content: right;*/
+    text-align: left;
+    background-color: white;
+    flex: 1;
+}
+
+.left-section .text-content {
+    color: #707070;
+    margin-top:40px;
+    margin-bottom: 100px;
+}
+
+.left-section .title {
+    text-align: left;
+    margin-left: 12%;
+    font-size: 24px;
+    font-weight: bold;
+    color:#96192b;
+}
+
+.left-section .title-2 {
+    text-align: left;
+    margin-left: 12%;
+    font-size: 24px;
+    font-weight: bold;
+    color:#191c27;
+}
+
+
+.right-section{
+    background: url(../../images/PB_chocolate_milkshake-v2.jpg);
+    background-size: contain;
+    display: inline-flex;
+    padding: 50px 15px;
+    flex: 1;
+    margin-left: 20%;
+    
+}
+
+.right-section-1{
+    background: url(../../images/PB_chocolate_milkshake-v2.jpg) center center no-repeat;
+    background-size: contain;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+
+.right-section-main-image-seasons-1 {
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-seasons-1  .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section-main-image-seasons-2 {
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-seasons-2  .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section-main-image-seasons-3 {
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-seasons-3  .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section-main-image-seasons-4 {
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-seasons-4  .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section-main-image-ocasional-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-ocasional-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-about-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-about-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-spring-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-spring-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-spring-3{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-summer-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-summer-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-summer-3{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-autumn-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-autumn-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-autumn-3{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-winter-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-winter-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-wedding-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+
+.right-section-main-image-wedding-1 .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section-main-image-wedding-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-confirmation-1{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-confirmation-2{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+.right-section-main-image-confirmation-3{
+    background: url(../../images/ultimate_bacon_cheeseburger-v1.jpg) center center no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    padding: 50px 25px;
+    flex: 1;
+    margin-left: 20%;
+}
+
+
+.right-section .text-content {
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right-section .info-msg {
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+.btn.cta {
+    max-width: 14vw;
+    text-align: center;
+    padding: 3em;
+    border-radius: 40px;
+    background-color: #96192b;
+    color:white;
+    text-decoration: none;
+    display: inline-table;
+}
+
+.btn.cta-1 {
+    width: 14vw;
+    text-align: center;
+    padding:1em;
+    border-radius: 40px;
+    background-color: #96192b;
+    text-decoration: none;
+    margin-left: 12%;
+    font-weight: bold;
+}
+.main-footer {
+    background-color: rgb(248,248,248);
+    padding: 0 50px;
+    color:black;
+}
+
+.contact-footer {
+    background-color: 	rgb(248,248,248);
+    /*padding: 0 50px;*/
+    padding: 1%;
+    text-align: center;
+}
+
+.btn.secondary {
+    background-color: #96192b;
+    border: 0;
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex;
+    padding-top: 50px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 10px;
+    flex: 1;
+
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form .col-left {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.contact-form .col-right {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.contact-form .col-bottom {
+    grid-column: 1 / 3;
+    grid-row: 2 / 2;
+}
+
+.contact-form .field-group {
+    display: block;
+    
+}
+
+.contact-form .field-group label, 
+.contact-form .field-group input,
+.contact-form .field-group textarea {
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-form .secondary{
+    margin-top: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 10px;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.details .address {
+
+}
+
+.main-footer .copywrite {
+    padding: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18pt;
+    margin: 0 auto;
+}
+
+.copywrite {
+    grid-column: 2/3;
+    color:#191c27;
+}
+
+.contact-footer {
+    text-align: center;
+}
+
+.contact-form-2 fieldset {
+    background-color: white;
+    width: 100%;
+    margin-left: 150%;
+    margin-top: 16em;
+    border-radius: 25px;
+    padding: 3em;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(212, 212, 212);
+}
+ /* Style inputs */
+ .contact-form-2 input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1.5em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.contact-form-2 input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.contact-form-2  input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.contact-form-2  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 
+  
+  /* Style the submit button */
+  .contact-form-2 input[type=submit] {
+    width: 30%;
+    background-color: #96192b;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .contact-info .title{
+    margin: 1%;
+    /*padding: 25px 100px;*/
+    font-size: 25px;
+    font-weight: bold;
+    width:60%;
+}
+  .contact-info .text-content{
+    /*padding: 0 100px;*/
+    /*margin-top: 20px;*/
+    margin: 2%;
+    width: 40%;
+    box-sizing: border-box;
+    color:black;
+  }
+
+  .container-footer {
+    background-color: white;
+    width: 100%;
+    height:50px;
+}
+
+.container-footer-2 {
+    background-color: white;
+    width: 100%;
+    height:300px;
+}
+
+.section-content i {
+    color:#96192b;
+}
+
+.square {
+    display:inline-flex;
+    position: relative;
+    width: 25%;
+    padding-bottom: 20%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:60%; /* = 100% - 2*10% padding */
+    width:40%; /* = 100% - 2*5% padding */
+    padding: 10% 5%;
+    margin-left: 50%;
+    margin-top: 20%;
+    border: solid 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size:10px;
+    box-sizing: border-box;
+}
+/*MAP*/
+.mapouter{
+    position: relative;
+    text-align: right;
+    margin-top: 300px;
+    height: 100px;
+    width: 1080px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none !important;
+    height:487px;
+    width:1080px;
+}
+/*MAP*/
+  
+@media (max-width: 1030px){
+    .site-logo {
+        display:none;
+    }
+}
+
